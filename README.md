@@ -52,8 +52,11 @@ admin.site.register(Student,StudentAdmin)
 
 
 ## OUTPUT
+![OUTPUT](https://github.com/monishr288/django-orm-app/assets/147474049/d7372af9-535a-4b4d-a7f6-0f62ec14762e)
 
-Include the screenshot of your admin page.
+## RESULT
+The program is executed successfully
+
 
 
 ## RESULT

@@ -42,17 +42,11 @@ from django.contrib import admin
 
 
 # class Student (models.Model):
-   `` referencenumber=models.CharField(primary_key=True,max_length=20,help_text="reference number")
-   
+    referencenumber=models.CharField(primary_key=True,max_length=20,help_text="reference number")
     name=models.CharField(max_length=100)
-    
     age=models.IntegerField()
-    
     email=models.EmailField()
-    
-    mobileno=models.IntegeField()``
-
-
+    mobileno=models.IntegeField()
 
 class StudentAdmin(admin.ModelAdmin):
     list_display=('referencenumber','name','age','email','mobileno')

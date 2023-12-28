@@ -56,10 +56,10 @@ class StudentAdmin(admin.ModelAdmin):list_display=('referencenumber','name','age
 from django.contrib import admin
 from .models import Student,StudentAdmin
 
+
 ## Register your models here.
 
 admin.site.register(Student,StudentAdmin)
-
 
 ## OUTPUT
 ![OUTPUT](https://github.com/monishr288/django-orm-app/assets/147474049/d7372af9-535a-4b4d-a7f6-0f62ec14762e)

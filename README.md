@@ -36,6 +36,7 @@ End the program
 ## code to edit in 'models.py'
 
 from django.db import models
+
 from django.contrib import admin
 
 ## Create your models here.
@@ -53,7 +54,6 @@ class StudentAdmin(admin.ModelAdmin):list_display=('referencenumber','name','age
 ## codes to be edit in 'admin.py'
 
 from django.contrib import admin
-
 from .models import Student,StudentAdmin
 
 ## Register your models here.

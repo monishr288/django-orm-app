@@ -13,15 +13,23 @@ Include your ER diagram here![ER diagram](https://github.com/monishr288/django-o
 
 ### STEP 1: 
 
-Clone the empty Repository from Github.
+Install myapp using command prompt
 
 ### STEP 2:
 
-Under the directory Dataproject install a Django project named 'myapp'. Check database engine 'sqlite'.
+Edit setting.py and model.py
 
 ### STEP 3:
 
-Write our code in models.py and modify settings.py and admin.py.Run Django project.
+create a username and password using for your django 'python manage.py createsuperuser' and then run the program using python manage.py runserver [your port number]"
+
+## STEP 4:
+
+Login with your username and passowrd in django and select student table and then add 10 students details.
+
+## STEP 5:
+
+End the program
 
 ## PROGRAM
 
@@ -59,4 +67,4 @@ The program is executed successfully
 
 
 
-## RESULT
+
